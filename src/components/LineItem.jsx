@@ -7,9 +7,9 @@ function LineItem(props) {
         <div>
             <table className="itemTable">
                 <tr>
-                    <th>Item Name</th>
-                    <th>Item Cost</th>
-                    <th>Item Quantity</th>
+                    <th>Name</th>
+                    <th>Cost</th>
+                    <th>Quantity</th>
                 </tr>
                 <tr>
                     <td>{props.name}</td>
